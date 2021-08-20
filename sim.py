@@ -29,22 +29,6 @@ import ujson
 
 DEBUG = True
 
-CONFIG = {
-  'MQTT_APN': 'internet',
-  'MQTT_CLIENTID': 'clientid',
-  'MQTT_BROKER': 'mqtt.example.com',
-  'MQTT_USER': 'username',
-  'MQTT_PASS': 'xyzabcdefgh',
-
-  'MODEM_POWER_PIN': 4,
-  'MODEM_RESET_PIN': 5,
-  'MODEM_RX_PIN': 26,
-  'MODEM_TX_PIN': 27,
-
-  'NTP_SERVER': 'ntp.nic.cz',
-  }
-
-
 # Utils for debugging
 def d(msg):
   if DEBUG:
